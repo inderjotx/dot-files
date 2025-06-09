@@ -1,0 +1,169 @@
+{
+  "editor.formatOnSave": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "launch": {},
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "update.showReleaseNotes": false,
+  "editor.fontFamily": "Fira Code iScript",
+  "editor.fontLigatures": true,
+  "vim.leader": " ",
+  "vim.hlsearch": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<S-h>"],
+      "commands": [":bprevious"]
+    },
+    {
+      "before": ["<S-l>"],
+      "commands": [":bnext"]
+    },
+    {
+      "before": ["leader", "v"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": [":split"]
+    },
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": [":w!"]
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": [":q!"]
+    },
+    {
+      "before": ["<C-x>"],
+      "commands": [":x!"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["a", "p"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<C-p>"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["leader", "c"],
+      "commands": ["editor.action.commentLine"]
+    }
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "workbench.list.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.smoothScrolling": true,
+  "vim.useSystemClipboard": true,
+  "editor.inlineSuggest.fontFamily": "i",
+  "workbench.iconTheme": "material-icon-theme",
+  "supermaven.enable": {
+    "*": false,
+    "typescriptreact": true
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "explorer.confirmPasteNative": false,
+  "files.associations": {
+    "*.tsx": "typescriptreact",
+    "*.ts": "typescript"
+  },
+  "supermaven.allowGitignore": true,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Community",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.preferredAccount": "inderjotx",
+  "workbench.editor.customLabels.patterns": {
+    "**/{layout,page}.tsx": "${dirname} ${filename}",
+    "**/[[]**[]]/{layout,page}.tsx": "${dirname(1)} ${filename}",
+    "**/{route}.ts": "${dirname} ${filename}"
+  },
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "notebook.output.fontFamily": "Segoe UI, Arial, Helvetica, sans-serif",
+  "notebook.output.fontSize": 14,
+  "notebook.lineNumbers": "on",
+  "docker.extension.enableComposeLanguageServer": false
+}
